@@ -1,0 +1,44 @@
+:host {
+    --color-fondo-header: #003B95;
+    --color-borde:#AA38A5;
+    --color-texto: #000;
+    --color-texto: #fff;
+    --color-fondo-btn: #4CAF50;
+}
+
+.form-body {
+    padding: 8px;
+    border: 1px solid var(--color-borde);
+    margin: 10px 70px 0 85px
+}
+
+
+.contenedor-buscador {
+    display: flex;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px; /* Ajusta el ancho según tus necesidades */
+}
+
+.contenedor-buscador input[type="search"],
+.contenedor-buscador input[type="date"],
+.contenedor-buscador input[type="number"] {
+    padding: 8px;
+    border: 1px solid var(--color-borde);
+    margin-right: 10px;
+}
+
+.contenedor-fechas,
+.contenedor-personas {
+    display: flex;
+}
+
+.btn-body {
+    background-color: var(--color-fondo-btn);
+    color: var(--color-texto);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}

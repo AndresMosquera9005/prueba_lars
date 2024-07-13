@@ -2,21 +2,16 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-registro',
   standalone: true,
   imports: [],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './registro.component.html',
+  styleUrl: './registro.component.css'
 })
-export class HeaderComponent {
+export class RegistroComponent {
 
   constructor( private router: Router ){  } 
-  
-  registrarme(){
-    this.router.navigate(['registro'])
-  }
-
-  iniciarSesion(){
+  registrado(){
     this.router.navigate(['login'])
   }
 

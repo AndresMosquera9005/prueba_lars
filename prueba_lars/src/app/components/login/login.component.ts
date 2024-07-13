@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-login',
   standalone: true,
   imports: [],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.css'
 })
-export class HeaderComponent {
+export class LoginComponent {
 
   constructor( private router: Router ){  } 
   
@@ -17,7 +17,7 @@ export class HeaderComponent {
   }
 
   iniciarSesion(){
-    this.router.navigate(['login'])
+    this.router.navigate(['body'])
   }
 
 }

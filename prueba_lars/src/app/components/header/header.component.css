@@ -29,11 +29,11 @@ h1 {
     margin: 0;
 }
 
-.contenedor-botones {
+.contenedor-btn-header {
     display: flex;
 }
 
-.boton {
+.btn-header {
     background-color: var(--color-fondo-btn);
     color: var(--color-texto);
     border: none;
