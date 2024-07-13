@@ -1,0 +1,63 @@
+:host {
+  --color-texto:#ffff;
+  --color-fondo-blanco: #c4b8b864; 
+  --color-botton-fondo:#0000ff;
+  --color-botton-fondo-hover: #57575d;
+  --color-botton-text:#000;
+  --color-body:#1D1D1D;
+  --color-negro:#000;
+  --color-borde:#AA38A5;
+}
+
+.row{
+  margin-left: 5%;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px; 
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px var(--color-borde);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+  }
+  
+.card-body {
+  padding: 15px;
+}
+  
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+  
+.card-text {
+  color: var(--color-negro);
+  line-height: 1.6;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px var(--color-botton-fondo-hover);
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Cards stack vertically on smaller screens */
+  }
+  
+  .card {
+    margin-bottom: 15px; /* Reduce margin for stacked cards */
+  }
+}
+  

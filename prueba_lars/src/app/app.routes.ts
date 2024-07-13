@@ -17,5 +17,8 @@ export const routes: Routes = [
     },
     {
         path: 'registro', component: RegistroComponent
+    },
+    {
+        path: 'recomendaciones', component: RegistroComponent
     }
 ];
